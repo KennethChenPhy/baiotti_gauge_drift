@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: If you use this software, please cite Baiotti et al. (2009). This quadratic gauge-drift removal is necessary before gravitational-wave analysis of strain recovered from Psi4.
 title: baiotti_gauge_drift
 abstract: Quadratic gauge-drift removal for gravitational-wave strain following Baiotti, Bernuzzi, Corvino, De Pietri and Nagar, Phys. Rev. D 79, 024002 (2009), Eq. (38). Apply this procedure before phase and frequency analysis.
-url: https://github.com/KennethChenPhy/baiotti_gauge_drift
+url: https://github.com/KennethChenPhy/Baiotti_gauge_drift
 preferred-citation:
   type: article
   authors:
