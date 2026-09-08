@@ -19,6 +19,10 @@ h_+'=h_+-P_+(t),\qquad h_\times'=h_\times-P_\times(t).
 
 Use \(h_+'\) and \(h_\times'\) for all subsequent gravitational-wave analysis.
 
+Thesis figure `fig:bqs_mit270_baiotti_detrend` (`MIT2.70`, \(\ell=2\), \(m=2\), \(r=350\,M_\odot\)): top, raw \(h_+\) after FFI of \(\Psi_{4,22}\) with the least-squares quadratic \(P_+(t)\) (red); bottom, \(h_+'=h_+-P_+(t)\).
+
+![Quadratic gauge-drift removal for MIT2.70 (fig:bqs_mit270_baiotti_detrend)](figures/bqs_mit270_baiotti_detrend_2x1.jpg)
+
 ## Requirements
 
 - Python 3.10+
@@ -74,6 +78,7 @@ python baiotti_gauge_drift.py
 | File | Role |
 |------|------|
 | `baiotti_gauge_drift.py` | Least-squares quadratic floor on \(h_+\) and \(h_\times\); Eq. (38) on \(r(h_+-i h_\times)\) |
+| `figures/bqs_mit270_baiotti_detrend_2x1.jpg` | Thesis figure `fig:bqs_mit270_baiotti_detrend` |
 
 ## Reference
 
